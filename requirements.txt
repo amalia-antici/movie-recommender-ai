@@ -2,3 +2,4 @@ pandas
 scikit-learn
 rapidfuzz
 streamlit
+altair<5
