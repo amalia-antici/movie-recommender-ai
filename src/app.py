@@ -28,9 +28,10 @@ if user_input:
         cols=st.columns(3)
         for i, (idx, row) in enumerate(result.iterrows()):
             with cols[i%3]:
-                st.info(f'**{row['Movie_Title']}**')
-                st.write(f'Rating: {row['Rating']}/10')
-                st.write(f'{row['Runtime(Mins)']} mins')
+                st.info(f"**{row['Movie_Title']}**")
+                st.write(f"Rating: {row['Rating']}/10")
+                st.write(f"{row['Runtime(Mins)']} mins")
+
 
 
 
